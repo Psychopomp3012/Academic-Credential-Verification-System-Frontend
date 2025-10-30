@@ -38,13 +38,12 @@ function Header() {
     <header className="p-4 bg-gradient-to-r from-indigo-600 to-purple-600 text-white">
       <div className="max-w-5xl mx-auto">
         <h1 className="text-2xl font-semibold">Academic Credentials — Issuer UI</h1>
-        <p className="text-sm opacity-90">Frontend for issuing & fetching academic credentials (PolygonID back-end)</p>
       </div>
-      <nav className="mt-6 flex flex-wrap gap-3 text-sm">
-        <Link to="/" className="hover:underline w-40 text-lg bg-black rounded-lg text-center">Initialize</Link>
-        <Link to="/create-user" className="hover:underline w-40 text-lg bg-black rounded-lg text-center">Create DID</Link>
-        <Link to="/issue" className="hover:underline w-40 text-lg bg-black rounded-lg text-center">Issue Credential</Link>
-        <Link to="/view" className="hover:underline w-40 text-lg bg-black rounded-lg text-center">Get Credentials</Link>
+      <nav className="mt-6 flex flex-wrap justify-center gap-3 text-sm">
+        <Link to="/" className="hover:underline w-40 py-2 font-bold text-lg bg-black rounded-lg text-center">Initialize</Link>
+        <Link to="/create-user" className="hover:underline w-40 py-2 font-bold text-lg bg-black rounded-lg text-center">Create DID</Link>
+        <Link to="/issue" className="hover:underline w-40 py-2 font-bold text-lg bg-black rounded-lg text-center">Issue Credential</Link>
+        <Link to="/view" className="hover:underline w-40 py-2 font-bold text-lg bg-black rounded-lg text-center">Get Credentials</Link>
       </nav>
     </header>
   )
